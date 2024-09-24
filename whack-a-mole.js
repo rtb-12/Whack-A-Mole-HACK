@@ -22,6 +22,6 @@ const puppeteer = require("puppeteer");
     }
   }
 
-  // Start clicking moles
+  // Start smashing moles AND beat that HIGH SCORE !!!!
   clickMoles();
 })();
