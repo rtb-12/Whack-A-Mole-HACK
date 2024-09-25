@@ -24,18 +24,6 @@ This project automates the Whack-A-Mole game using Node.js and Puppeteer. The au
    
    - Puppeteer launches a version of Chrome or Chromium in a controlled environment and allows you to simulate clicks, navigation, input, and more. It is useful for automating any browser interaction.
 
-   - **Installing Puppeteer**:
-     Puppeteer will be installed as a project dependency when you run the installation command below.
-
-     1. Ensure you are in your project directory. To install Puppeteer, open your terminal or command prompt and run:
-        ```bash
-        npm install puppeteer
-        ```
-
-     2. This command will download Puppeteer and its associated Chromium browser, which may take a little time due to the size of the browser binaries.
-
-   - **Verify Puppeteer Installation**:
-     Once the installation is complete, you can verify Puppeteer is properly installed by checking your `node_modules` directory or running the script.
 
 3. **Git** (optional but recommended):
    - If you plan to clone this project from a repository, you can download Git from [here](https://git-scm.com/).
