@@ -7,7 +7,6 @@ This project automates the Whack-A-Mole game using Node.js and Puppeteer. The au
 - [Installation](#installation)
 - [Running the Script](#running-the-script)
 - [How the Script Works](#how-the-script-works)
-- [Troubleshooting](#troubleshooting)
 
 ## Prerequisites
 
