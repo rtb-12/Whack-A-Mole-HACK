@@ -6,9 +6,9 @@ const puppeteer = require("puppeteer");
     defaultViewport: null,
   });
   const page = await browser.newPage();
-  await page.goto("https://nikkuag.github.io/Wack-A-Mole/");
+  await page.goto("https://rtb-12.github.io/WHACK-A-MOLE/");
 
-  await page.click("button");
+  await page.click("button.start-button");
 
   const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
   async function clickMoles() {
@@ -22,6 +22,6 @@ const puppeteer = require("puppeteer");
     }
   }
 
-  // Start smashing moles AND beat that HIGH SCORE !!!!
+  // Start clicking moles
   clickMoles();
 })();
